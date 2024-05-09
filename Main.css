@@ -1,0 +1,100 @@
+/*HEADER CSS CODE*/
+
+header {
+    background-color: rgb(13, 55, 92);
+    color: #fff;
+    padding: 20px;
+    margin: 0px;
+}
+.navigation {
+    display: flexbox;
+    text-align: center;
+    
+}
+.navigation li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 2px;
+}
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+.navigation a:hover{
+    color: #910c0c;
+}
+
+/*BODY*/
+body {
+    color: #353535;
+    margin: 0;
+}
+
+.section {
+    padding: 100px 0; 
+    background-image: url(cute-abstract-modern-background-free-vector.jpg); 
+}
+
+.section--clip {
+
+}
+
+.section--gray {
+    background-color: #efefef;
+    clip-path: polygon(0 50px, 100% 0, 100% calc(100% - 50px), 0 100%);
+}
+
+.section--black {
+    background-color: #333;
+    clip-path: polygon(0 50px, 100% 0, 100% calc(100% - 50px), 0 100%);
+    color: #fff;
+}
+
+.section--clip + .section--clip {
+    margin-top: -50px;
+}
+
+.section--image {
+    background-image: url(https://images.unsplash.com/photo-1509565840034-3c385bbe6451?ixlib=rb-0.3.5&s=c3e6530380365e0ed5a54a6b8b63413c&auto=format&fit=crop&w=1489&q=80);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    min-height: 300px;
+  }
+
+.wrap {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: 'Abril Fatface', serif;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  line-height: 1.25em;
+}
+
+img {
+    width: 500px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
